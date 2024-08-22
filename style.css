@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+  background-image: url('./img/fon.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #7172C0;
+  font-size: 16px;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+.bg-light {
+  --bs-bg-opacity: 0;
+}
+
+.nav-item {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(47, 37, 180);
+  text-shadow: 1px 1px 10px #424ef7;
+}
+
+.pacifico-regular {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(47, 37, 180);
+  text-shadow: 1px 1px 10px #424ef7;
+}
+
+.card {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: rgb(18, 6, 179);
+  height: 390px;
+  margin: 5px;
+}
+
+.card-footer {
+  background-color: transparent;
+  border: none;
+}
+
+.card-footer {
+  background-color: transparent;
+  border: none;
+}
+
+.card-body {
+  --bs-card-bg: rgba(255, 255, 255, 0.01);
+}
+
+.card-footer {
+  --bs-card-bg: rgba(255, 255, 255, 0.01);
+}
+
+.carousel-item {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.carousel-item-next.active,
+.carousel-item-prev.active {
+  opacity: 1;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-family: "Balsamiq Sans", sans-serif;
+  color: #6263a3;
+  flex: 1;
+  padding-right: 20px;
+}
+
+.image {
+  width: 384px;
+  height: 672px;
+}
+
+#banner {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  position: relative;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#banner img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#banner a {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+
+.contacts {
+  font-family: "Balsamiq Sans", sans-serif;
+  text-align: justify;
+  margin: 20px auto;
+}
+
+h1,
+p {
+  font-family: "Balsamiq Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #4d4e8a;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #7172C0;
+}
+
+.cont {
+  max-width: 1000px;
+     margin: 0 auto;
+        padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }

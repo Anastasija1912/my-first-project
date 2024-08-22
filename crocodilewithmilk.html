@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="img/klubok.ico">
+  <title>Вязанные игрушки от Анастасии</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-primary-emphasis">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/obl.png" alt="Logo" width="99" height="56" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="container-fluid">
+        <div class="navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="./faq.html">Про игрушки</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="./katalog.html" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-current="page">Каталог игрушек</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="katalog.html">Всё</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./katalog.html#large-toys">Большие плюшевые игрушки</a></li>
+                <li><a class="dropdown-item" href="./katalog.html#medium-toys">Средние плюшевые игрушки</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contacts.html">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container-xl mt-4">
+    <div class="row gap-5 mt-5">
+      <div class="col-sm-7 col-md-6 mx-auto">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/crocodilewithmilkfas.jpg" class="d-block w-100" alt="крокодил с молоком">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/crocodilewithmilkprof.jpg" class="d-block w-100" alt="молоко с крокодилом">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">предыдущий</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">следующий</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-7 col-md-5 mx-auto">
+        <div id="nameProduct" class="d-flex align-items-center justify-content-center">
+          <h4 style="font-size: 3rem; color: rgb(49, 88, 160)">Крокодил №1 </h4>
+          <span class="badge bg-primary">в наличии</span>
+
+        </div>
+        <div id="informationProduct" class="d-flex justify-content-around mt-3 p-3">
+          <p class="my-auto fs-2">высота: <i class="bi bi-water"></i><span class="border border-subtle p-2">
+              35 см.
+            </span></i></p>
+          <button type="button" class="btn btn-outline-primary btn-sm"><i class="bi bi-basket-fill"></i>
+            <h4>Приобрести</h4>
+          </button>
+        </div>
+        <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#desrciption"
+              type="button" role="tab" aria-controls="description" aria-selected="true">характеристики</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="composition-tab" data-bs-toggle="tab" data-bs-target="#composition"
+              type="button" role="tab" aria-controls="composition" aria-selected="false">состав</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="brand-tab" data-bs-toggle="tab" data-bs-target="#brand" type="button"
+              role="tab" aria-controls="brand" aria-selected="false">прочее</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="desrciption" role="tabpanel" aria-labelledby="description-tab">
+            <h5 class="mt-5">
+              Крокодил №1, с молоком, в стиле Kinder surprise
+            </h5>
+            <p class="mt-3 article_text">
+              артикул: 2024-03
+            </p>
+            <p class="text-break">
+              мягкая игрушка, для любителей Киндер-сюрприз из 90-х гг. 20 века. Игрушка подойдёт и взрослым и детям от
+              3-х лет.
+            </p>
+          </div>
+          <div class="tab-pane fade" id="composition" role="tabpanel" aria-labelledby="composition-tab">
+            <p class="mt-5">
+              Плюшевая пряжа LaVita yarn (100% полиэстер), пряжа Yarnart Jeans(55% хлопок, 45% акрила). <br>Глазки
+              пластиковые. <br> Наполнитель - холлофайбер.
+            </p>
+          </div>
+          <div class="tab-pane fade" id="brand" role="tabpanel" aria-labelledby="brand-tab">
+            <h6 class="mt-5">
+              возможен повтор с другим цветом пряжи, с другой формой глаз, с другим наполнителем
+            </h6>
+            <p class="mt-3 country_text">
+              время изготовления. после поступления заказа около 2 недель.
+            </p>
+            <p class="text-break">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="mt-5 position-fixed bottom-0">
+    <p>Компания Cloudy__Alice ©. Все права защищены.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
