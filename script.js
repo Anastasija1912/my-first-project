@@ -1,5 +1,4 @@
-const largeToys =
-[
+const largeToys = [
     {
         name: "Крокодил №1",
         description: "с молоком, в стиле Kinder surprise",
@@ -58,34 +57,357 @@ const largeToys =
             "./img/bearredprof.jpg",
         ]
     },
+    {
+        name: "Медведь Тэдди",
+        description: "светло-серый",
+        link: "./teddi.html",
+        images: [
+            "./img/teddifas.jpg",
+            "./img/teddiprof.jpg",
+        ]
+    },
+    {
+        name: "Заяц",
+        description: "циановый",
+        link: "./hareblue.html",
+        images: [
+            "./img/harebluefas.jpg",
+            "./img/hareblueprof.jpg",
+        ]
+    },
+    {
+        name: "Заяц",
+        description: "светло-серый",
+        link: "./haregrey.html",
+        images: [
+            "./img/haregreyfas.jpg",
+        ]
+    },
+    {
+        name: "Ротвейлер",
+        description: "с подвижными лапами и головой",
+        link: "./rottweiler.html",
+        images: [
+            "./img/rottweiler.jpg",
+        ]
+    },
 ]
 
+
+
 const mediumToys = [
-{
-    name: "собачка",
-    description: "с сумкой",
-    link: "./dogbag.html",
-    images: [
-        "./img/dogbagfas.jpg",
-        "./img/dogbagprof.jpg",
-    ]
-},
-{
-    name: "Муми Тролль",
-    description: "из мультфильма",
-    link: "./troll.html",
-    images: [
-        "./img/trollfas.jpg",
-        "./img/trolprof.jpg",
-    ]
-},
+    {
+        name: "собачка",
+        description: "с сумкой",
+        link: "./dogbag.html",
+        images: [
+            "./img/dogbagfas.jpg",
+            "./img/dogbagprof.jpg",
+        ]
+    },
+    {
+        name: "Муми Тролль",
+        description: "из мультфильма",
+        link: "./troll.html",
+        images: [
+            "./img/trollfas.jpg",
+            "./img/trolprof.jpg",
+        ]
+    },
+    {
+        name: "Бегемот",
+        description: "в купальнике, в стиле Kinder surprise",
+        link: "./hippopotamus.html",
+        images: [
+            "./img/hippopotamusfas.jpg",
+            "./img/hippopotamusprof.jpg",
+        ]
+    },
+]
+
+
+const keychain = [
+    {
+        name: "Арбуз",
+        description: "светло-серый",
+        link: "./watermelonkeychain.html",
+        images: [
+            "./img/watermelonkeychain.jpg",
+        ]
+    },
+    {
+        name: "Дракончик",
+        description: "",
+        link: "./dragon.html",
+        images: [
+            "./img/dragon.jpg",
+        ]
+    },
+    {
+        name: "Сердце",
+        description: "разные цвета",
+        link: "./heartkeychain.html",
+        images: [
+            "./img/heartkeychain.jpg",
+        ]
+    },
+    {
+        name: "медведь",
+        description: "коричневый",
+        link: "./minibear.html",
+        images: [
+            "./img/minibear.jpg",
+        ]
+    },
+]
+
+
+const cottonMedium = [
+    {
+        name: "Единорог",
+        description: "с одеждой",
+        link: "./unicornbig.html",
+        images: [
+            "./img/unicornbig.jpg",
+        ]
+    },
+    {
+        name: "Эльф",
+        description: "новогодний",
+        link: "./dwarf.html",
+        images: [
+            "./img/dwarf.jpg",
+        ]
+    },
+    {
+        name: "Олень",
+        description: "новогодний ",
+        link: "./deer.html",
+        images: [
+            "./img/deer.jpg",
+            "./img/deer2.jpg"
+        ]
+    },
+    {
+        name: "Клоун",
+        description: "фильм Оно",
+        link: "./clown.html",
+        images: [
+            "./img/clownfas.jpg",
+            "./img/clown.jpg"
+        ]
+    },
+    {
+        name: "Аниме парень",
+        description: "",
+        link: "./boy.html",
+        images: [
+            "./img/boyfas.jpg",
+        ]
+    },
+    {
+        name: "Аниме девушка",
+        description: "",
+        link: "./animeGirl.html",
+        images: [
+            "./img/animeGirl.jpg",
+        ]
+    },
+]
+
+
+
+const cottonSmall = [
+    {
+        name: "Грогу",
+        description: "малыш Йоды, из сериала Мандалорец",
+        link: "./grogy.html",
+        images: [
+            "./img/grogyfas.jpg",
+            "./img/grogyprof.jpg",
+            "./img/grogystr.jpg"
+        ]
+    },
+    {
+        name: "Енот",
+        description: "с фотоаппаратом",
+        link: "./raccoonfac.html",
+        images: [
+            "./img/raccoonfac.jpg",
+        ]
+    },
+    {
+        name: "щенок",
+        description: "с переноской, одеждой и едой",
+        link: "./dog.html",
+        images: [
+            "./img/dog.jpg",
+            "./img/dog2.jpg",
+            "./img/dogcat.jpg",
+            "./img/dogcat2.jpg",
+            "./img/dogcat3.jpg",
+            "./img/dogcat5.jpg",
+            "./img/dogcat4.jpg",
+        ]
+    },
+    {
+        name: "котенок",
+        description: "с переноской, одеждой и едой",
+        link: "./cat.html",
+        images: [
+            "./img/cat.jpg",
+            "./img/cat2.jpg",
+            "./img/dogcat.jpg",
+            "./img/dogcat2.jpg",
+            "./img/dogcat3.jpg",
+            "./img/dogcat5.jpg",
+            "./img/dogcat4.jpg",
+        ]
+    },
+    {
+        name: "Анна и Эльза",
+        description: "из мультфильма Холодное сердце",
+        link: "./annaelsa.html",
+        images: [
+            "./img/annaelsa.jpg",
+            "./img/annaelsakristof.jpg",
+        ]
+    },
+    {
+        name: "Кристоф",
+        description: "из мультфильма Холодное сердце",
+        link: "./Kristof.html",
+        images: [
+            "./img/Kristof.jpg",
+            "./img/annaelsakristof.jpg",
+        ]
+    },
+    {
+        name: "автомобиль ",
+        description: "с прицепом, елью и горой",
+        link: "./car.html",
+        images: [
+            "./img/car.jpg",
+            "./img/car2.jpg",
+        ]
+    },
+    {
+        name: "олень",
+        description: "маленькая игрушка",
+        link: "./deermini.html",
+        images: [
+            "./img/deermini.jpg",
+        ]
+    },
+]
+
+const cottonKeychain = [
+    {
+        name: "ротвейлер",
+        description: "",
+        link: "./rottweilerkeychain.html",
+        images: [
+            "./img/rottweilerkeychain.jpg",
+        ]
+    },
+    {
+        name: "Грогу",
+        description: "брелок с магниным ключом",
+        link: "./grogumini.html",
+        images: [
+            "./img/grogumini.jpg",
+        ]
+    },
+    {
+        name: "единорог",
+        description: "",
+        link: "./unicorn.html",
+        images: [
+            "./img/unicorn.jpg",
+        ]
+    },
+    {
+        name: "хот дог",
+        description: "брелок",
+        link: "./hotdog.html",
+        images: [
+            "./img/hotdog.jpg",
+        ]
+    },
+    // {
+    //     name: "кактус",
+    //     description: "темно-зеленый",
+    // link: "./animeGirl.html",
+    //     images: [
+    //         "./img/cactusdarkgreen.jpg",
+    //         "./img/cactus.jpg",
+    //     ]
+    // },
+    // {
+    //     name: "кактус",
+    //     description: "светло-зеленый",
+    //     images: [
+    //         "./img/cactuslightgreen.jpg",
+    //         "./img/cactus.jpg",
+    //     ]
+    // },
+]
+
+const other = [
+    {
+        name: "Плюшевые носки",
+        description: "розовый, серые, фиолетовы, циановые",
+        link: "./socks.html",
+        images: [
+            "./img/socks1.jpg",
+            "./img/socksgey.jpg",
+            "./img/sockspink.jpg",
+            "./img/socksviolet.jpg",
+            "./img/socksblue.jpg",
+        ]
+    },
+    {
+        name: "жакеты для барби",
+        description: "разные цвета",
+        link: "./jacket.html",
+        images: [
+            "./img/jacket.jpg",
+
+        ]
+
+    },
+    {
+        name: "раздавленный хот дог",
+        description: "подставка под чашку",
+        link: "./cupholder.html",
+        images: [
+            "./img/cupholder1.jpg",
+            "./img/cupholder.jpg",
+        ]
+    },
 ];
 
-function createCards(toys, containerId, interval = 5000) {
-const container = document.getElementById(containerId);
 
-toys.forEach((toy, index) => {
-const cardHtml = `
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function createCards(toys, containerId, interval = 5000) {
+    const container = document.getElementById(containerId);
+
+    toys.forEach((toy, index) => {
+        const cardHtml = `
 <div class="col-lg-3 col-md-5 col-sm-6 mb-2">
 <div class="card">
     <div id="carouselExampleIndicators${containerId}${index}" class="carousel slide h-75" data-bs-interval="${interval}">
@@ -117,8 +439,13 @@ const cardHtml = `
 </div>
 </div>
 `;
-container.innerHTML += cardHtml;
-});
+        container.innerHTML += cardHtml;
+    });
 }
 createCards(largeToys, "large-card-container", 10);
 createCards(mediumToys, "medium-card-container", 10);
+createCards(keychain, "keychain-card-container", 10);
+createCards(cottonMedium, "cotton-medium-container", 10);
+createCards(cottonSmall, "cotton-small-container", 10);
+createCards(cottonKeychain, "cotton-keychain-container", 10);
+createCards(other, "other-container", 10);
