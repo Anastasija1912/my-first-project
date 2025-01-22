@@ -112,7 +112,8 @@ body {
 .contacts {
   font-family: "Balsamiq Sans", sans-serif;
   text-align: justify;
-  margin: 20px auto;
+  margin-top: 25px;
+  margin-left: 500px;
 }
 
 h1,
@@ -132,10 +133,12 @@ a:hover {
 
 .cont {
   max-width: 1000px;
-     margin: 0 auto;
-        padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
 
 @media (max-width: 600px) {
   h1 {

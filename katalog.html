@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light text-primary-emphasis">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
@@ -38,8 +38,21 @@
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="./katalog.html#large-toys">Большие плюшевые игрушки</a></li>
-                <li><a class="dropdown-item" href="./katalog.html#medium-toys">Средние плюшевые игрушки</a></li>
+                <li><a class="dropdown-item" href="./katalog.html#largeToys">Большие плюшевые игрушки</a></li>
+                <li><a class="dropdown-item" href="./katalog.html#mediumToys">Средние плюшевые игрушки</a></li>
+                <li><a class="dropdown-item" href="./katalog.html#keychain">Плюшевые брелоки</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./katalog.html#cottonMedium">Хлопоковые средние игрушки</a>
+                </li>
+                <li><a class="dropdown-item" href="./katalog.html#cottonSmall">Хлопоковые маленькие игрушки</a>
+                </li>
+                <li><a class="dropdown-item" href="./katalog.html#cottonKeychain">Хлопоковые брелоки</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./katalog.html#other">Другое</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -50,18 +63,56 @@
       </div>
     </nav>
   </header>
-  <div class="container-xxl mt-5" id="large-toys">
+
+  <div class="container-xxl mt-5" id="largeToys">
     <h1 class="text-center mb-5">
       <p class="pacifico-regular">БОЛЬШИЕ ПЛЮШЕВЫЕ ИГРУШКИ</p>
     </h1>
     <div class="row gap-2 justify-content-center" id="large-card-container"></div>
   </div>
-  <div class="container-xxl mt-5" id="medium-toys">
+  <div class="container-xxl mt-5" id="mediumToys">
     <h1 class="text-center mb-5">
       <p class="pacifico-regular">СРЕДНИЕ ПЛЮШЕВЫЕ ИГРУШКИ</p>
     </h1>
     <div class="row gap-2 justify-content-center" id="medium-card-container"></div>
   </div>
+
+  <div class="container-xxl mt-5" id="keychain">
+    <h1 class="text-center mb-5">
+      <p class="pacifico-regular">ПЛЮШЕВЫЕ БРЕЛОКИ</p>
+    </h1>
+    <div class="row gap-2 justify-content-center" id="keychain-card-container"></div>
+  </div>
+
+  <div class="container-xxl mt-5" id="cottonMedium">
+    <h1 class="text-center mb-5">
+      <p class="pacifico-regular">ХЛОПКОВЫЕ СРЕДНИЕ ИГРУШКИ</p>
+    </h1>
+    <div class="row gap-2 justify-content-center" id="cotton-medium-container"></div>
+  </div>
+
+  <div class="container-xxl mt-5" id="cottonSmall">
+    <h1 class="text-center mb-5">
+      <p class="pacifico-regular">ХЛОПКОВЫЕ МАЛЕНЬКИЕ ИГРУШКИ</p>
+    </h1>
+    <div class="row gap-2 justify-content-center" id="cotton-small-container"></div>
+  </div>
+
+  <div class="container-xxl mt-5" id="cottonKeychain">
+    <h1 class="text-center mb-5">
+      <p class="pacifico-regular">ХЛОПОКОВЫЕ БРЕЛОКИ</p>
+    </h1>
+    <div class="row gap-2 justify-content-center" id="cotton-keychain-container"></div>
+  </div>
+
+  <div class="container-xxl mt-5" id="other">
+    <h1 class="text-center mb-5">
+      <p class="pacifico-regular">ДРУГОЕ</p>
+    </h1>
+    <div class="row gap-2 justify-content-center" id="other-container"></div>
+  </div>
+
+
   <script src="script.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
